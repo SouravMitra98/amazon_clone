@@ -1,122 +1,130 @@
-🛒 Amazon Clone
+# 🛒 Amazon Clone
 
-This is a basic Amazon-style clone built using Flutter.
-The idea behind this project is to practice building a real-world e-commerce app with a clean UI, navigation, and some backend integration. Think of it as a playground to experiment with Flutter, state management, and full-stack concepts.
+A **basic Amazon-style clone** built with **Flutter**.
+This project is a practice/full-stack learning project that demonstrates e-commerce UI and functionality. The goal is to replicate the core shopping experience of Amazon, with potential backend integration.
 
-✨ Features
-What’s Already Working
+---
 
-Browse products with a neat listing UI
+## 🚀 Features
 
-Navigate between different screens seamlessly
+### ✅ Implemented
 
-Works on Android, iOS, and Web
+* Product listing UI
+* Navigation between screens
+* Cross-platform support (Android, iOS, Web)
+* Organized folder structure for scalability
 
-Organized folder structure to make the code easy to understand and scale
+### 🛠️ Planned
 
-Coming Soon
+* User authentication (Sign Up / Login)
+* Shopping cart & checkout
+* Order history & tracking
+* Admin panel for product management
+* Sales analytics dashboard
+* Payment gateway integration
 
-User authentication (Sign Up / Login)
+---
 
-Shopping cart & checkout flow
+## 🏗️ Tech Stack
 
-Order history & tracking
+**Frontend**
 
-Admin dashboard for managing products
+* [Flutter](https://flutter.dev/) (Dart)
+* Provider (state management)
 
-Sales analytics and charts
+**Backend (in progress)**
 
-Payment gateway integration
+* Node.js + Express (server/)
+* MongoDB
 
-🛠 Tech Stack
+---
 
-Frontend: Flutter (Dart)
+## 📂 Project Structure
 
-State Management: Provider
-
-Backend (WIP): Node.js + Express
-
-Database: MongoDB
-
-📂 Project Structure
-
-Here’s how the project is organized:
-
+```
 amazon_clone/
-├── android/           # Android files
-├── ios/               # iOS files
+├── android/           # Android project files
+├── ios/               # iOS project files
 ├── web/               # Web support
-├── assets/            # Images and static files
-├── lib/               # Main Flutter code
-│   ├── common/        # Shared widgets and utilities
-│   ├── features/      # All app features (auth, home, cart, etc.)
+├── assets/            # Images & static resources
+├── lib/               # Main Flutter application code
+│   ├── common/        # Shared widgets & utilities
+│   ├── features/      # Features (auth, home, admin, cart, etc.)
 │   ├── models/        # Data models
 │   └── providers/     # State management
-├── server/            # Backend APIs (in progress)
+├── server/            # Backend (Node.js/Express) [WIP]
 └── README.md
+```
 
-🚀 Getting Started
-Prerequisites
+---
 
-Flutter SDK
+## ⚡ Getting Started
 
-Emulator or a real device
+### Prerequisites
 
-Run the App
-# Clone this repo
+* [Flutter SDK](https://docs.flutter.dev/get-started/install)
+* Emulator or physical device
+
+### Run Frontend
+
+```bash
+# Clone repo
 git clone https://github.com/SouravMitra98/amazon_clone.git
 cd amazon_clone
 
-# Install dependencies
+# Get dependencies
 flutter pub get
 
-# Run the app
+# Run app
 flutter run
+```
 
-Backend (Optional / In Progress)
+### Run Backend (optional / if setup is ready)
+
+```bash
 cd server
 npm install
 npm start
+```
 
+---
 
-Note: Backend is a work in progress. Some APIs may not be fully functional yet.
+## 📸 Screenshots
 
-📸 Screenshots
+*Coming soon*
 
-Screenshots will be added soon as the app UI gets more complete.
+(Add screenshots of your app once UI screens are stable.)
 
-📝 Roadmap
+---
 
-Here’s what I plan to work on next:
+## 📊 Roadmap
 
-Complete backend APIs
+* [ ] Complete backend APIs
+* [ ] Add authentication with JWT
+* [ ] Implement cart & orders
+* [ ] Payment gateway integration
+* [ ] Admin dashboard with analytics
 
-Add authentication with JWT
+---
 
-Implement cart & order functionality
+## 🤝 Contributing
 
-Integrate payment gateways
+Contributions are welcome!
 
-Build an admin panel with analytics
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature-name`)
+3. Commit changes (`git commit -m 'Add new feature'`)
+4. Push to branch (`git push origin feature-name`)
+5. Open a Pull Request
 
-🤝 Contributing
+---
 
-I welcome contributions!
-
-Fork the repo
-
-Create a new branch (git checkout -b feature-name)
-
-Make your changes and commit (git commit -m "Add feature")
-
-Push to your branch (git push origin feature-name)
-
-Open a pull request
-
-📜 License
+## 📜 License
 
 NONE
 
-🌟 Support
+---
 
-If you like this project, give it a star ⭐ on GitHub. It really helps!
+### 🌟 Support
+
+If you found this project useful, please consider giving it a **star ⭐** on GitHub!
