@@ -1,130 +1,117 @@
-# 🛒 Amazon Clone
+🛒 Amazon Clone
 
-A **basic Amazon-style clone** built with **Flutter**.
-This project is a practice/full-stack learning project that demonstrates e-commerce UI and functionality. The goal is to replicate the core shopping experience of Amazon, with potential backend integration.
+A basic Amazon-style clone built with Flutter, designed to practice building real-world e-commerce apps.
+This project focuses on clean UI, smooth navigation, and full-stack learning with a backend (in progress).
 
----
+✨ Features
+✅ Implemented
 
-## 🚀 Features
+Browse products with a clean, scrollable UI
 
-### ✅ Implemented
+Navigate smoothly between screens
 
-* Product listing UI
-* Navigation between screens
-* Cross-platform support (Android, iOS, Web)
-* Organized folder structure for scalability
+Cross-platform: Android, iOS, Web
 
-### 🛠️ Planned
+Well-organized folder structure for easy scalability
 
-* User authentication (Sign Up / Login)
-* Shopping cart & checkout
-* Order history & tracking
-* Admin panel for product management
-* Sales analytics dashboard
-* Payment gateway integration
+🛠 Coming Soon
 
----
+User authentication (Sign Up / Login)
 
-## 🏗️ Tech Stack
+Shopping cart & checkout flow
 
-**Frontend**
+Order history & tracking
 
-* [Flutter](https://flutter.dev/) (Dart)
-* Provider (state management)
+Admin panel for managing products
 
-**Backend (in progress)**
+Analytics dashboard
 
-* Node.js + Express (server/)
-* MongoDB
+Payment gateway integration
 
----
+🛠 Tech Stack
 
-## 📂 Project Structure
+Frontend: Flutter (Dart)
 
-```
+State Management: Provider
+
+Backend: Node.js + Express (server/)
+
+Database: MongoDB
+
+📂 Project Structure
 amazon_clone/
-├── android/           # Android project files
-├── ios/               # iOS project files
+├── android/           # Android files
+├── ios/               # iOS files
 ├── web/               # Web support
-├── assets/            # Images & static resources
-├── lib/               # Main Flutter application code
+├── assets/            # Images & static files
+├── lib/               # Flutter app code
 │   ├── common/        # Shared widgets & utilities
-│   ├── features/      # Features (auth, home, admin, cart, etc.)
+│   ├── features/      # App features (auth, home, cart, etc.)
 │   ├── models/        # Data models
 │   └── providers/     # State management
-├── server/            # Backend (Node.js/Express) [WIP]
+├── server/            # Backend APIs (WIP)
 └── README.md
-```
 
----
+🚀 Getting Started
+Prerequisites
 
-## ⚡ Getting Started
+Flutter SDK
 
-### Prerequisites
+Emulator or a physical device
 
-* [Flutter SDK](https://docs.flutter.dev/get-started/install)
-* Emulator or physical device
-
-### Run Frontend
-
-```bash
-# Clone repo
+Run the App
+# Clone the repo
 git clone https://github.com/SouravMitra98/amazon_clone.git
 cd amazon_clone
 
-# Get dependencies
+# Install dependencies
 flutter pub get
 
-# Run app
+# Run the app
 flutter run
-```
 
-### Run Backend (optional / if setup is ready)
-
-```bash
+Backend (Optional / In Progress)
 cd server
 npm install
 npm start
-```
 
----
 
-## 📸 Screenshots
+⚠️ Note: Backend is a work in progress. Some APIs may not be fully functional yet.
 
-*Coming soon*
+📸 Screenshots
 
-(Add screenshots of your app once UI screens are stable.)
+Screenshots will be added soon as the UI gets polished.
 
----
+📝 Roadmap
 
-## 📊 Roadmap
+Complete backend APIs
 
-* [ ] Complete backend APIs
-* [ ] Add authentication with JWT
-* [ ] Implement cart & orders
-* [ ] Payment gateway integration
-* [ ] Admin dashboard with analytics
+Add authentication with JWT
 
----
+Implement cart & order functionality
 
-## 🤝 Contributing
+Integrate payment gateways
 
-Contributions are welcome!
+Build admin panel with analytics
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature-name`)
-3. Commit changes (`git commit -m 'Add new feature'`)
-4. Push to branch (`git push origin feature-name`)
-5. Open a Pull Request
+🤝 Contributing
 
----
+Contributions are very welcome!
 
-## 📜 License
+Fork the repo
 
-This project is licensed under the **MIT License**.
+Create a new branch (git checkout -b feature-name)
 
----
+Commit your changes (git commit -m "Add feature")
 
-### 🌟 Support
+Push to your branch (git push origin feature-name)
 
-If you found this project useful, please consider giving it a **star ⭐** on GitHub!
+Open a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License.
+
+🌟 Support
+
+If you like this project, give it a star ⭐ on GitHub. It really helps motivate development!
