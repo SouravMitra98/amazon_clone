@@ -1,5 +1,10 @@
 🛒 Amazon Clone
 
+
+
+
+
+
 A basic Amazon-style clone built with Flutter, designed to practice building real-world e-commerce apps.
 This project focuses on clean UI, smooth navigation, and full-stack learning with a backend (in progress).
 
